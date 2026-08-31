@@ -14,5 +14,3 @@ function conversor_binario()
 
     fprintf('Binario: %s\n', binario);
 end
-
-% Atalho: dec2bin(decimal)
