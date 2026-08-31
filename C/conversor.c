@@ -5,7 +5,7 @@ int main() {
     char binario[64];
 
     printf("Digite um numero decimal: ");
-   ("%d", &decimal);
+    scanf("%d", &decimal);
 
     if(decimal==0){
         printf("Binario: 0\n");
