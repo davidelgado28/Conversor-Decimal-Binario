@@ -9,12 +9,14 @@ A comprehensive collection of algorithms focused on converting decimal numbers t
 This project includes source code and implementations in the following languages:
 
 - **Assembly**
+- **Brainfuck**
 - **C**
 - **C++**
 - **C#**
 - **Cobol**
 - **Dart**
 - **Fortran**
+- **Golang**
 - **Java**
 - **JavaScript**
 - **Julia**
