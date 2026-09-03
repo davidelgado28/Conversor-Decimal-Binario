@@ -36,7 +36,7 @@ atoi:
 atoi_done:
     mov rdi, buffer
     add rdi,63
-    mov byte [rdi], 10  ; newline
+    mov byte [rdi], 10  
     mov rcx, 0
 
     cmp rax, 0
