@@ -10,19 +10,16 @@ section .text
     global _start
 
 _start:
-    ; imprime mensagem de entrada
     mov rax, 1
     mov rdi, 1
     mov rsi msg_in
     mov rdx, 26    syscall
 
-    ; lê entrada
     mov rax, 0
     mov rdi, 0    mov rsi, entrada
     mov rdx, 16
     syscall
 
-    ; converte string para int (atoi simples)
     mov rsi, entrada
     xor rax, rax
 atoi:
@@ -60,14 +57,13 @@ convert:
     jnz convert
 
 print:
-    ; imprime "Binario: "
     mov rax, 1
     mov rdi, 1
  mov rsi, msg_out
     mov rdx, 9
     syscall
 
-    ; imprime binário
+
     movax, 1
     mov rdi, 1
     mov rdx, rcx
